@@ -37,8 +37,25 @@ Mirip seperti ketika kita menginstall aplikasi, jika tidak kita jalankan, maka a
 Oleh karena itu, setelah membuat container, kita perlu menjalankannya jika memang ingin menjalankan container nya.
 
 #### View Docker Container
-`docker ps` untuk melihat container yang running
-`docker ps -a` untuk melihat semua container, baik yang running maupun tidak
+`docker ps` or `docker container ls` untuk melihat container yang running
+`docker ps -a` `docker container ls -a` untuk melihat semua container, baik yang running maupun tidak
+
+#### Create Docker Container
+`docker container create --name <container_name> <image_name>:<tag>`
 
 #### Running Docker Container
-`docker container create --name <container_name> <image_name>:<tag>`
+`docker container start <container_name>`
+
+#### Create and Running Docker Container
+`docker run -d --name <container_name> <image_name>:<tag>`
+
+option `-d` merupakan singkatan dari detach, biasanya digunakan untuk aplikasi yang memerlukan untuk _running in background_.
+
+#### Delete Docker Container
+`docker container rm <nama_container>` or `docker rm <nama_container>`
+
+command lainnya yang sama:
+
+`docker rm -f <nama_container>`
+
+digunakan untuk menghapus container yang masih running, option `-f` yaitu _force_.
