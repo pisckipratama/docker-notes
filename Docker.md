@@ -1,5 +1,7 @@
 # Learn Basic Docker
 
+Catatan belajar Docker. referensi dari [Programmer Zaman Now - TUTORIAL DOCKER DASAR](https://www.youtube.com/watch?v=3_yxVjV88Zk)
+
 ### Check Version
 
 `docker version` or `docker --version`
@@ -14,6 +16,7 @@ Sebelum kita bisa menjalankan aplikasi di Docker, kita perlu memastikan memiliki
 
 #### Download/Pull Docker Image
 `docker pull <image_name>:<tag>`
+
 Kita bisa mencari Docker Image yang ingin kita download di [https://hub.docker.com/](https://hub.docker.com/)
 
 #### Delete Docker Image
@@ -25,3 +28,17 @@ Jika Docker Image seperti installer aplikasi, maka Docker Container mirip sepert
 Satu Docker Image bisa digunakan untuk membuat beberapa Docker Container, asalkan nama Docker Container nya berbeda.
 
 Jika kita sudah membuat Docker Container, maka Docker Image yang digunakan tidak bisa dihapus, hal ini dikarenakan sebenarnya Docker Container tidak meng-copy isi Docker Image, tapi hanya menggunakannya isinya saja
+
+#### Container Status
+Saat kita membuat container, secara default container tersebut tidak akan berjalan.
+
+Mirip seperti ketika kita menginstall aplikasi, jika tidak kita jalankan, maka aplikasi tersebut tidak akan berjalan, begitu juga container.
+
+Oleh karena itu, setelah membuat container, kita perlu menjalankannya jika memang ingin menjalankan container nya.
+
+#### View Docker Container
+`docker ps` untuk melihat container yang running
+`docker ps -a` untuk melihat semua container, baik yang running maupun tidak
+
+#### Running Docker Container
+`docker container create --name <container_name> <image_name>:<tag>`
