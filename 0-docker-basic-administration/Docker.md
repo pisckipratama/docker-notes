@@ -226,3 +226,7 @@ Hampir di semua perintah di Docker mendukung prune
 * Untuk menghapus semua network yang tidak digunakan container, gunakan : `docker network prune`
 * Untuk menghapus semua volume yang tidak digunakan container, gunakan : `docker volume prune`
 * Atau kita bisa menggunakan satu perintah untuk menghapus container, network dan image yang sudah tidak digunakan menggunakan perintah : `docker system prune`
+
+### Finish Chapter
+
+Silahkan lanjut ke Project Berikutnya: [Dockerized Local Environment Development](https://github.com/pisckipratama/docker-notes/tree/main/1-dockerized-local-env)
