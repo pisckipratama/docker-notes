@@ -1,4 +1,4 @@
-# Dockerized Landing Page Website
+# Dockerized NodeJS Application
 
 Untuk sesi ini kita mencoba untuk membuat Docker image untuk website static atau yang sering digunakan sebagai _landing page_. Di skenario ini sudah ada contoh source code native website (html, css, js). Kita akan menggunakan NGINX sebagai base image, lalu copy semua file yang ada pada folder ke default directory NGINX yang dijadikan sebagai index webserver yaitu /usr/share/nginx/html.
 
@@ -40,4 +40,4 @@ Lalu coba cek ke Docker Hub dan seharusnya image dengan nama my-web sudah muncul
 
 ### Finish Chapter
 
-Silahkan lanjut ke Project Berikutnya: [Dockerized NodeJS App](https://github.com/pisckipratama/docker-notes/tree/main/3-dockerized-nodejs-app)
+Silahkan lanjut ke Project Berikutnya: [Docker Multistage Build](https://github.com/pisckipratama/docker-notes/tree/main/4-multistage-build-docker)
