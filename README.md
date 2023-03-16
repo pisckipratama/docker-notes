@@ -1,7 +1,11 @@
-# Dockerize Local Development Environment
+# Mastering Docker
 
-Pada sesi ini kita akan mencoba membuat environment dev untuk mengembangkan aplikasi. Untuk contoh case disini kita akan menggunakan NodeJS yang mana nantinya kita juga akan mencoba menjalankannya.
+Repository ini ditujukan sebagai catatan pribadi dalam mempelajari dan menguasai teknologi container dengan Docker.
 
-Tujuan dari sesi ini kita bisa memanfaatkan Docker untuk pengembangan aplikasi di local kita sebagai programmer, yang mana nantinya tidak lagi menginstall tools yang diperlukan untuk mengembangkan aplikasi tersebut di local kita.
-
-### Memahami Dockerfile
+Pada repo ini dibagi menjadi beberapa part belajar sebagai berikut:
+- Docker Basic Administration
+- Dockerized Local Environment Development
+- Dockerized NodeJS App
+- Using Multistage Build
+- Using Docker Compose
+- Continues Integration Using Github Action
