@@ -7,6 +7,5 @@ Pada repo ini dibagi menjadi beberapa part belajar sebagai berikut:
 - [Dockerized Local Environment Development](https://github.com/pisckipratama/docker-notes/tree/main/1-dockerized-local-env)
 - [Dockerized Landing Page Web](https://github.com/pisckipratama/docker-notes/tree/main/2-dockerized-web-landingpage)
 - [Dockerized NodeJS App](https://github.com/pisckipratama/docker-notes/tree/main/3-dockerized-nodejs-app)
-- [Using Multistage Build]()
+- [Using Multistage Build](https://github.com/pisckipratama/docker-notes/tree/main/4-multistage-build-docker)
 - Using Docker Compose
-- Continues Integration Using Github Action
