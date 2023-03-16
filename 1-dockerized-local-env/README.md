@@ -66,4 +66,4 @@ Referensi : [Introduction to HTTP with Python: Build your first micro service
 
 ### Finish Chapter
 
-Silahkan lanjut ke Project Berikutnya
+Silahkan lanjut ke Project Berikutnya: [Dockerized Landing Page Web](https://github.com/pisckipratama/docker-notes/tree/main/2-dockerized-web-landingpage)

@@ -40,4 +40,4 @@ Lalu coba cek ke Docker Hub dan seharusnya image dengan nama my-web sudah muncul
 
 ### Finish Chapter
 
-Silahkan lanjut ke Project Berikutnya
+Silahkan lanjut ke Project Berikutnya: [Dockerized NodeJS App](https://github.com/pisckipratama/docker-notes/tree/main/2-dockerized-web-landingpage)
