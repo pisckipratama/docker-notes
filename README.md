@@ -5,6 +5,7 @@ Repository ini ditujukan sebagai catatan pribadi dalam mempelajari dan menguasai
 Pada repo ini dibagi menjadi beberapa part belajar sebagai berikut:
 - Docker Basic Administration
 - Dockerized Local Environment Development
+- Dockerized Landing Page Web
 - Dockerized NodeJS App
 - Using Multistage Build
 - Using Docker Compose

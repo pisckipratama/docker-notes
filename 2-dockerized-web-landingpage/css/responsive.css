@@ -1,0 +1,279 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .build_box h1 {
+        font-size: 64px;
+    }
+    #doct .carousel-control-prev {
+        left: 42.6%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 15px 8px;
+        font-size: 16px;
+    }
+    .build_box h1 {
+        font-size: 53px;
+    }
+    #doct .carousel-control-next {
+        right: 41%;
+    }
+    #doct .carousel-control-prev {
+        left: 43.6%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 9px 5px;
+        font-size: 14px;
+    }
+    .banner_main {
+        padding-bottom: 99px;
+    }
+    .build_box span {
+        font-size: 33px;
+        line-height: 32px;
+    }
+    .build_box h1 {
+        font-size: 41px;
+        line-height: 61px;
+    }
+    ul.search {
+        display: none;
+    }
+    .margin_left60 {
+        margin-left: 30px;
+    }
+    .margin_right60 {
+        margin-right: 30px;
+    }
+    #doct .carousel-control-next {
+        right: 36%;
+    }
+    .titlepage h2 {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    ul.conatct_lo li {
+        padding-right: 29px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner_main {
+        padding-bottom: 99px;
+    }
+    .build_box span {
+        font-size: 33px;
+        line-height: 32px;
+    }
+    .build_box h1 {
+        font-size: 41px;
+        line-height: 61px;
+    }
+    ul.search {
+        display: none;
+    }
+    .margin_left60 {
+        margin-left: 30px;
+    }
+    .margin_right60 {
+        margin-right: 30px;
+    }
+    .titlepage h2 {
+        font-size: 31px;
+        line-height: 30px;
+    }
+    .build_box {
+        padding-top: 0;
+    }
+    ul.conatct_lo li {
+        padding-right: 18px;
+        font-size: 15px;
+    }
+    .doctor_img {
+        margin-bottom: 30px;
+    }
+    #doct .carousel-control-prev,
+    #doct .carousel-control-next {
+        top: 91%;
+    }
+    #doct .carousel-control-next {
+        right: 30%;
+    }
+    #doct .carousel-control-prev {
+        left: 40%;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 0px !important;
+    }
+    .navigation .navbar-collapse {
+        background: #e1f0f6;
+        padding: 20px;
+        margin-top: 68px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 10px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .back_re .title h2 {
+        font-size: 31px;
+    }
+    .logo a img {
+        position: relative;
+        z-index: 9999;
+    }
+    .banner_main {
+        padding-bottom: 58px;
+    }
+    .build_box span {
+        font-size: 24px;
+        x;
+        line-height: 32px;
+    }
+    .build_box h1 {
+        font-size: 41px;
+        line-height: 61px;
+    }
+    ul.search {
+        display: none;
+    }
+    .margin_left60 {
+        margin-left: 10px;
+    }
+    .margin_right60 {
+        margin-right: 10px;
+    }
+    .titlepage h2 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .build_box {
+        padding-top: 0;
+    }
+    ul.social_icon li {
+        margin-right: 31px;
+    }
+    .main_form .send_btn {
+        font-size: 19px;
+    }
+    ul.conatct_lo li {
+        padding-right: 18px;
+        font-size: 15px;
+        text-align: left;
+        display: flex;
+        padding-bottom: 12px;
+    }
+    .doctors .titlepage {
+        padding: 0;
+    }
+    .service_box h3 {
+        font-size: 26px;
+    }
+    .doctor_img {
+        margin-bottom: 30px;
+    }
+    #doct .carousel-control-prev,
+    #doct .carousel-control-next {
+        top: 84%;
+    }
+    .doctors_ban {
+        padding: 0;
+    }
+    .doctor_text a {
+        margin-top: 23% !important;
+        width: 150px;
+        height: 61px;
+    }
+    #doct .carousel-control-next {
+        right: 54%;
+    }
+    ul.search {
+        display: none;
+    }
+    .titlepage h2 {
+        font-size: 30px;
+        line-height: 31px;
+    }
+    .qusleft {
+        padding-left: 7px;
+    }
+    #testimo .carousel-control-next {
+        right: inherit;
+        left: 16%;
+    }
+    .main_form {
+        padding: 40px 20px;
+    }
+    ul.link_menu {
+        margin-bottom: 20px;
+    }
+    .projects_ban {
+        padding: 0 0px;
+    }
+    .about_img {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .many {
+        margin-bottom: 20px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        padding-top: 0px !important;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #e1f0f6;
+        padding: 20px;
+        margin-top: 26px;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        border: inherit;
+        margin-top: -55px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+}
