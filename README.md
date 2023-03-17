@@ -11,3 +11,7 @@ Pada repo ini dibagi menjadi beberapa part belajar sebagai berikut:
 - [Using Docker Compose](https://github.com/pisckipratama/docker-notes/tree/main/5-docker-compose)
 
 Semoga bermanfaat dan berkah.
+
+Slides:
+- [GDSC DevOps Beginner / Basic (Docker Basic)](https://docs.google.com/presentation/d/151iCPAVHYrduS2uTNMgFvPfu4Ui_sVxx7dUW1Tp-Z4c/edit#slide=id.g25bc445820_0_0)
+- [GDSC DevOps Intermediate (Dockerfile, Docker Compose, and Basic Github Action)](https://docs.google.com/presentation/d/1ULE0yEDRS0t-mGnI0ZUfFubuQqaFO3EuE5DVoSwe2Tw/edit?resourcekey=0-irk5Ir-f3GRvhzVZQsaWaA#slide=id.g203cb550815_0_54)
