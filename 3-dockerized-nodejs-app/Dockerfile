@@ -11,9 +11,9 @@ ENV TZ=Asia/Jakarta
 ENV NODE_ENV=production
 
 # Build Application
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
-COPY --chown=node:node . .
+COPY --chown=node:node . ./
 
 # setup container
 USER node
